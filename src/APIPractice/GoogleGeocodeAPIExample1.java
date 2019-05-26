@@ -15,7 +15,7 @@ public class GoogleGeocodeAPIExample1 {
 
         try
         {
-            URL url = new URL("https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyD0zOm9EX0yw3Qg1d5TWzLp4eUsEwI0Lk4");
+            URL url = new URL("https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=???");
             //Parse URL into HttpURLConnection in order to open the connection in order to get the JSON data
             HttpURLConnection conn = (HttpURLConnection)url.openConnection();
             //Set the request to GET or POST as per the requirements
